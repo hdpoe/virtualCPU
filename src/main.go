@@ -1,8 +1,8 @@
 package main
 
-import "cpu"
+ import "cpu"
 
 func main() {
-  var start uint8 = 100
+  var start uint16 = 0x07
   cpu.BeginExecution(start)
 }
